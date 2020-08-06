@@ -60,7 +60,7 @@ cfExt.init(function (api) {
    * duplicates.
    */
   function setSlug (slug) {
-    var preSlug = '/tag/' + slug
+    var preSlug = '/tag/' + slug + '/'
     input.value = preSlug
     slugField.setValue(slug)
     setStatus('loading')
